@@ -2,6 +2,9 @@
 
 "Data leakage was prevented by encapsulating all preprocessing steps within a pipeline, ensuring that transformations were learned exclusively from training data and applied consistently during validation and testing." 
 
+"Inside the pipeline.predict() method. You never called transform() manually, but scikit-learn did it for you."
+
+
 ## Where data leakage “hides” in practice.
 | Stage | Risk |
 | ------------------- | ----------------------------------- |
