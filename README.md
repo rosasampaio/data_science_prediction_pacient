@@ -1,4 +1,4 @@
-# data_science_prediction_pacient
+# Data Science Patient Prediction
 Heart Disease Prediction
 
 
